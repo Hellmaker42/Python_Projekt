@@ -11,7 +11,7 @@ det bara är reklam beroende på om det är en dag då postnord levererar post (
 Detta var dock inte 100% säkert och tanken är att utöka sändarenheten med en videokamera som kan känna igen en bil från postnord.
 
 Jag har provat olika lösningar så som Tensorflow och olika versioner utav Yolo men har inte fått det att fungera.
-Till slut valde jag att använda mig utav YOLO v11 då det verkade vara både bra och snabbt för att känna igen specifika objekt och även enkelt att implemetera
+Till slut valde jag att använda mig utav YOLO v11 då det verkade vara både bra och snabbt för att känna igen specifika objekt och även enkelt att implementera
 och förstå. Datasetet har jag skapat själv med bilder på postnordbilar samt vanliga bilar. För att märka upp mina bilder med vad som
 är postnord-bilar och vanliga bilar har jag använt mig utav Label-studio.
 
